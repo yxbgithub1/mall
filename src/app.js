@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { StatusBar } from 'react-native'
-import { BottomTabNavigator } from '@/layout'
+import { AppContainer } from '@/layout'
 
 /**
  * 入口文件
@@ -16,7 +16,7 @@ export default class App extends React.Component {
                     barStyle="dark-content"
                     networkActivityIndicatorVisible={true}
                 />
-                <BottomTabNavigator />
+                <AppContainer />
             </Fragment>
         )
     }
