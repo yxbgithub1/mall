@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* mallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mallTests.m */; };
-		0457D0912323AB3D003780DD /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0457D0902323AB3D003780DD /* iconfont.ttf */; };
 		07635A5A3F874CDB808E0954 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA8B7AC247584005B5AE4D0A /* Zocial.ttf */; };
 		0D069424CB5A4EC721E362EC /* libPods-mall-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 846F7E76694BFF11628D6373 /* libPods-mall-tvOS.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -23,6 +22,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* mallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mallTests.m */; };
 		3954923643D84980B3309729 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B676A63B5A04E2199828E3B /* Feather.ttf */; };
 		3A719F8246E9B85AF24C9F07 /* libPods-mall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E0CC35A30674A5565271F37 /* libPods-mall.a */; };
+		48D20EFF2323DF6100256A35 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 489FAA8923216CB100797FF6 /* iconfont.ttf */; };
 		50569C0499E5422F98B181B4 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFBCE7C894474104A35A6D08 /* AntDesign.ttf */; };
 		5781F20995ED4401A79CB541 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F143276F37D404B95D64DFA /* FontAwesome.ttf */; };
 		5FAC3F63A195478BBDBDB52C /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89BA9A1305A34E9786A6E93A /* Ionicons.ttf */; };
@@ -400,7 +400,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0457D0912323AB3D003780DD /* iconfont.ttf in Resources */,
+				48D20EFF2323DF6100256A35 /* iconfont.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				50569C0499E5422F98B181B4 /* AntDesign.ttf in Resources */,

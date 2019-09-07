@@ -7,7 +7,7 @@ export class MyScreen extends Base {
     }
     render() {
         return (
-            <View style={{ marginTop: 20 }}>
+            <View>
                 <Text>我的</Text>
                 <Button title="跳转到设置" onPress={this.onClick} />
             </View>

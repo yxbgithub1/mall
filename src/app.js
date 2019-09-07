@@ -1,5 +1,5 @@
-import React, { Fragment } from 'react'
-import { StatusBar } from 'react-native'
+import React from 'react'
+import { SafeAreaView } from 'react-native'
 import { AppContainer } from '@/layout'
 
 /**
@@ -11,13 +11,14 @@ import { AppContainer } from '@/layout'
 export default class App extends React.Component {
     render() {
         return (
-            <Fragment>
-                <StatusBar
-                    barStyle="dark-content"
-                    networkActivityIndicatorVisible={true}
-                />
-                <AppContainer />
-            </Fragment>
+            // <SafeAreaView style={{ flex: 1 }}>
+            //     {/* <StatusBar
+            //         barStyle="dark-content"
+            //         networkActivityIndicatorVisible={true}
+            //     /> */}
+            //     <AppContainer />
+            // </SafeAreaView>
+            <AppContainer />
         )
     }
 }

@@ -14,6 +14,7 @@ export const BottomTabNavigator = createBottomTabNavigator(
         Home: {
             screen: screens.HomeScreen,
             navigationOptions: {
+                title: '商城',
                 tabBarLabel: '商城',
                 tabBarIcon: ({ focused }) => (
                     <IconFont
@@ -24,7 +25,7 @@ export const BottomTabNavigator = createBottomTabNavigator(
                 ),
             },
         },
-        Class: {
+        Classs: {
             screen: screens.ClassScreen,
             navigationOptions: {
                 tabBarLabel: '分类',
@@ -77,6 +78,9 @@ export const BottomTabNavigator = createBottomTabNavigator(
 )
 
 class SettingScreen extends React.Component {
+    static navigationOptions = {
+        title: '设置',
+    }
     render() {
         return (
             <View>
@@ -90,8 +94,12 @@ export const RootStack = createStackNavigator(
     {
         HomeScreen: {
             screen: BottomTabNavigator,
-            navigationOptions: {
-                header: null,
+            navigationOptions: ({ navigation }) => {
+                return {
+                    title:
+                        navigation.state.routes[navigation.state.index]
+                            .routeName,
+                }
             },
         },
         Setting: SettingScreen,

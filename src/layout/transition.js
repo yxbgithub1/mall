@@ -12,10 +12,10 @@ let IosTransition = (index, position) => {
         outputRange,
     })
 
-    const opacity = position.interpolate({
-        inputRange,
-        outputRange: [0, 1, 1, 0],
-    })
+    // const opacity = position.interpolate({
+    //     inputRange,
+    //     outputRange: [0, 1, 1, 0],
+    // })
 
     return {
         opacity: null,
@@ -50,8 +50,9 @@ export function transition() {
                 sceneProps.index === 0 &&
                 sceneProps.scene.route.routeName !== 'MallScreen' &&
                 sceneProps.scenes.length > 2
-            )
+            ) {
                 return null
+            }
 
             const { position, scene } = sceneProps
             const { index } = scene
